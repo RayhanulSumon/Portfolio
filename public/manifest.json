@@ -1,0 +1,15 @@
+{
+  "short_name": "Rayhanul Sumon",
+  "name": "Rayhanul Sumon is an experience web developer in Bangladesh",
+  "icons": [
+    {
+      "src": "sumon.png",
+      "sizes": "192*192",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

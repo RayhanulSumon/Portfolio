@@ -1,0 +1,149 @@
+.portfolio-main {
+    .portfolio-tab-list {
+        margin-bottom: 25px !important;
+    }
+
+    .react-tabs {
+        &__tab {
+            position: static;
+        }
+
+        &__tab-list {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom: none;
+            margin-bottom: 4rem;
+        }
+
+        &__tab {
+            color: #eee;
+            transition: all 0.4s;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            text-decoration: none;
+            list-style: none;
+        }
+
+        &__tab--selected {
+            color: #ffc107;
+            background-color: transparent;
+            border: none;
+            background: transparent;
+        }
+
+        &__tab-panel {
+            .tab-container {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                // grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+
+                @media only screen and (max-width: $tab-land) {
+                    grid-template-columns: repeat(2, 1fr);
+                }
+                @media only screen and (max-width: $mbl-land) {
+                    grid-template-columns: repeat(1, 1fr);
+                }
+
+                gap: 30px;
+                padding-bottom: 70px;
+            }
+
+            div {
+                width: 100%;
+                height: 100%;
+                border-radius: 1rem;
+            }
+        }
+        .tab-content {
+            width: 100%;
+            height: 229px;
+            position: relative;
+            cursor: pointer;
+            display: flex;
+
+            img {
+                @include img-size;
+                position: absolute;
+                top: 0;
+                left: 0;
+                border-radius: 0.5rem;
+            }
+
+            h3 {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                height: 100%;
+                width: 100%;
+                background-color: var(--main-primary-color);
+                opacity: 0;
+                visibility: hidden;
+                transition: all 0.5s;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 18px;
+                color: #fff;
+                text-transform: uppercase;
+                border-radius: 0.5rem;
+
+                .conent-title {
+                    position: relative;
+                    transform: translateY(-20px);
+                    transition: 0.5s;
+                }
+            }
+
+            &:hover {
+                h3 {
+                    opacity: 1;
+                    visibility: visible;
+
+                    .conent-title {
+                        transform: translateY(0);
+                    }
+                }
+            }
+        }
+    }
+}
+.filter_1 {
+    filter: invert(1);
+}
+body.light {
+    .portfolio-main {
+        .react-tabs .tab-content div,
+        .react-tabs .tab-content h3 {
+            background: var(--main-primary-color);
+        }
+        &.portfolio-main .react-tabs__tab {
+            color: #3b3a3a;
+        }
+        .portfolio-tab-list li:hover,
+        .portfolio-tab-list li.react-tabs__tab--selected {
+            color: var(--main-primary-color);
+        }
+    }
+    .modal_portfolio .modal__content {
+        background: #fff;
+    }
+    .modal_portfolio .modal__outside {
+        background: rgba(0, 0, 0, 0.65);
+    }
+    .modal_portfolio .close-modal img {
+        height: 100%;
+        width: 100%;
+        filter: invert(1);
+        &:hover {
+            filter: invert(0.9);
+        }
+    }
+    .modal_portfolio .modal__img {
+        background: #fff;
+    }
+}

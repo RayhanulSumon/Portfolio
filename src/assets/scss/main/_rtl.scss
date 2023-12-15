@@ -1,0 +1,109 @@
+.rtl {
+    direction: rtl;
+
+    .about .box-stats {
+        padding: 20px 40px 25px 30px;
+    }
+    .about .box-stats p {
+        padding-left: 0;
+        padding-right: 45px;
+    }
+    .about .box-stats p:before {
+        left: auto;
+        right: 0;
+    }
+    .about .box-stats h3 {
+        padding-right: 24px;
+        &::after {
+            right: 0;
+        }
+    }
+    .about .resume-box li {
+        padding: 0 60px 0 20px;
+    }
+    .about .resume-box li:after {
+        left: auto;
+        right: 20px;
+    }
+    .home .home-details h1 {
+        padding-right: 70px;
+        padding-left: 0;
+        @media (max-width: 991px) {
+            padding-right: 0;
+        }
+        &::before {
+            left: auto;
+            right: 0;
+        }
+    }
+    .home .home-details > div {
+        text-align: right;
+        @media (max-width: 991px) {
+            text-align: center;
+        }
+    }
+    .quotebox {
+        padding-left: 0;
+        padding-right: 70px;
+    }
+    .quotebox .icon {
+        left: auto;
+        right: 0;
+    }
+    .contact .custom-span-contact {
+        padding-left: 0;
+        padding-right: 50px;
+    }
+    .contact .custom-span-contact i {
+        left: auto;
+        right: 0;
+    }
+    .contactform {
+        padding-left: 0;
+        padding-right: 30px;
+        @media screen and (max-width: 991px) {
+            padding-right: 0;
+        }
+    }
+    .title-bg {
+        transform: translateY(-50%);
+    }
+    .contact ul.social {
+        margin-left: 0;
+        margin-right: -5px;
+        padding-right: 0;
+    }
+    .blog-post .meta span {
+        padding-right: 0;
+        padding-left: 15px;
+    }
+    .blog-post .meta {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .modal__details {
+        i.pr-2 {
+            padding-right: 0 !important;
+            padding-left: 0.5rem !important;
+        }
+    }
+    @media (max-width: 767px) {
+        .portfolio-tab-list {
+            padding-right: 0;
+        }
+    }
+    @media (max-width: 567px) {
+        .about .box-stats p {
+            padding-right: 0;
+        }
+    }
+    .list-unstyled {
+        padding-right: 0;
+    }
+    .home .bg {
+        background-image: url(../../img/hero/rtl-hero.jpg) !important;
+    }
+    .main-img-mobile {
+        content: url(../../img/hero/rtl-mobile.jpg);
+    }
+}
