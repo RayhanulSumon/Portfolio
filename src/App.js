@@ -5,6 +5,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import AnimatedCursor from "react-animated-cursor";
 import { ToastContainer } from "react-toastify";
+import {Analytics} from "@vercel/analytics/react";
 
 const App = () => {
   // this for animation
@@ -29,6 +30,8 @@ const App = () => {
       {/* End contact */}
       <ToastContainer />
       {/* Same as */}
+
+        <Analytics />
     </>
   );
 };
