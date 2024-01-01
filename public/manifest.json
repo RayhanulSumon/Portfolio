@@ -1,15 +1,52 @@
 {
   "short_name": "Rayhanul Sumon",
-  "name": "Rayhanul Sumon is an experience web developer in Bangladesh",
+  "name": "Rayhanul Sumon - Full-stack Developer",
+  "description": "A dynamic full-stack developer adeptly handling a variety of projects.",
   "icons": [
     {
-      "src": "sumon.png",
-      "sizes": "192*192",
+      "src": "/sumon-icon.webp",
+      "sizes": "192x192",
       "type": "image/png"
     }
   ],
-  "start_url": ".",
+  "start_url": "./",
   "display": "standalone",
+  "background_color": "#ffffff",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "orientation": "portrait",
+  "scope": "/",
+  "lang": "en-US",
+  "prefer_related_applications": false,
+  "related_applications": [],
+
+
+  "screenshots": [
+    {
+      "src": "/image/screenshot-mobile.png",
+      "sizes": "392x756",
+      "type": "image/png",
+      "form_factor": "wide",
+      "device": "Mobile"
+    },
+    {
+      "src": "/image/screenshot-mobile-2.png",
+      "sizes": "392x756",
+      "type": "image/png",
+      "device": "Mobile"
+    },
+    {
+      "src": "/image/screenshot-mobile-3.png",
+      "sizes": "392x756",
+      "type": "image/png",
+      "device": "Mobile"
+    },
+
+    {
+      "src": "/image/screenshot-desktop.png",
+      "sizes": "1920x864",
+      "type": "image/png",
+      "form_factor": "wide",
+      "device": "Laptop/Desktop"
+    }
+  ]
 }
