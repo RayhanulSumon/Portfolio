@@ -10,7 +10,7 @@ const SocialShare = [
     iconName: "fa fa-github",
     link: "https://github.com/RayhanulSumon",
   },
-  { iconName: "fa fa-linkedin", link: "https://www.linkedin.com/in/rksumon00" },
+  { iconName: "fa fa-linkedin", link: "https://www.linkedin.com/in/RayhanulSumon" },
 ];
 
 const Social = () => {
