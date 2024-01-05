@@ -3,7 +3,7 @@ import React from "react";
 const SocialShare = [
   {
     iconName: "fa fa-facebook",
-    link: "https://www.facebook.com/rayhanulsumoncse/",
+    link: "https://www.facebook.com/RayhanulSumonF/",
   },
   { iconName: "fa fa-twitter", link: "https://twitter.com/RayhanulSumonX" },
   {
