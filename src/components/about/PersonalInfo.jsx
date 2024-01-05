@@ -8,7 +8,7 @@ const personalInfoContent = [
   { meta: "Address", metaInfo: "Dhanmondi, Dhaka" },
   { meta: "phone", metaInfo: "+8801710138034" },
   { meta: "Email", metaInfo: "rayhanulsumon@gmail.com" },
-  { meta: "languages", metaInfo: "Bangla, English" },
+  // { meta: "languages", metaInfo: "Bangla, English" },
 ];
 
 const PersonalInfo = () => {
