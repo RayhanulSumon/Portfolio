@@ -18,8 +18,7 @@ const AllBlogData = () => {
         "Consider yourself; why I am just me not someone else? because you are unique to this world and yes often time you failed to realize that!. ",
       description3:
         "why I am alone? You are not alone you have many things in your memory, you can make things interesting, you can love someone, you can make the change, you can be an artist, everything you can do so why do you think you are alone; you have many characters with your kingdom.",
-      description4:
-        "View full text copy this url: https://www.researchgate.net/publication/359203109_How_to_overcome_the_difficulty",
+      link: "https://www.researchgate.net/publication/359203109_How_to_overcome_the_difficulty",
 
     },
     {
@@ -35,8 +34,7 @@ const AllBlogData = () => {
         "If you do not change direction, you may end up where you are heading. – Lao Tzu . ",
       description3:
         "2   Introduction: Change is constant, everyday change happened in person, organization, culture. But becoming change is not simple, we fear to change. The educational sector, just like any other organization changes regularly. During COVID 19 situation change happened in each sector especially in the education sector, because of this problem we implement online classes and activities. This is change, it happens all the time. But change doesn’t bring improvement. It depends on how well this change is implemented in the sector. Unplanned changes often lead to destruction. So, to initiate the proper effective change we have to apply a strategic approach. ",
-      description4:
-        "View full text copy this url:  https://www.researchgate.net/publication/359244275_Change_management_strategy_to_manage_change_in_the_education_sector    ",
+      link: "https://www.researchgate.net/publication/359244275_Change_management_strategy_to_manage_change_in_the_education_sector",
     },
     {
       id: 3,
@@ -51,8 +49,8 @@ const AllBlogData = () => {
         "Finding a proper solution is no easy task, it requires some fundamentals. Such as- Know your Skill & Ability: First thing you should acknowledge is your potential skills and ability. Because no matter how great an idea is you could not fulfillment that idea unless you have related skill and some particular ability. So, you should focus on your skill and then. ",
       description3:
         "If we tried to think of a good idea, we wouldn't have been able to think of a good idea. You just have to find the solution for a problem in your own life.\" – Brian Chesky ",
-      description4:
-        "View full text copy this url: https://www.researchgate.net/publication/354128515_How_to_Be_a_Successful_Entrepreneur   ",
+      link: "https://www.researchgate.net/publication/354128515_How_to_Be_a_Successful_Entrepreneur",
+
     },
 
   ];

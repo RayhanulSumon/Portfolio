@@ -90,24 +90,26 @@ const Blog = () => {
                       className="img-fluid"
                       alt="Blog"
                     />
-                    <div className="blog-excerpt open-sans-font pb-5">
-                      <p>{singleData?.description1}</p>
-                      <div className="quotebox">
-                        <div className="icon">
-                          <img src={blogQuote} alt="blog quote" />
-                        </div>
-                        <p>{singleData?.description2}</p>
+                      <div className="blog-excerpt open-sans-font pb-5">
+                          <p>{singleData?.description1}</p>
+                          <div className="quotebox">
+                              <div className="icon">
+                                  <img src={blogQuote} alt="blog quote"/>
+                              </div>
+                              <p>{singleData?.description2}</p>
+                          </div>
+                          <p>{singleData?.description3}</p>
+                          <a href={`${singleData?.link}`}
+                             target="_blank" rel="noopener noreferrer">View full text on ResearchGate</a>
+
                       </div>
-                      <p>{singleData?.description3}</p>
-                      <p>{singleData?.description4}</p>
-                    </div>
-                    {/* Article Content Ends */}
+                      {/* Article Content Ends */}
                   </article>
-                  {/* Article Ends */}
+                    {/* Article Ends */}
                 </div>
               </div>
             </Modal>
-            {/* End  ModalOneBlogContent */}
+              {/* End  ModalOneBlogContent */}
           </div>
         ))}
       </div>
