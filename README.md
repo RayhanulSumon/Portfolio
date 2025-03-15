@@ -20,7 +20,7 @@ npm run start
 
 ``` 
 npm run build  
-``` 
+```  
  
 ### Lints and fixes files  
 
