@@ -14,7 +14,7 @@ npm install / npm install --legacy-peer-deps
 
 ```
 npm run start  
-```   
+```    
 
 ### Compiles and minifies for production
 
