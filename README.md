@@ -19,7 +19,7 @@ npm run start
 ### Compiles and minifies for production
 
 ``` 
-npm run build   
+npm run build   l
 ```
  
 ### Lints and fixes files  
