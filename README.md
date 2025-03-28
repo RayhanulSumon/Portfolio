@@ -13,7 +13,7 @@ npm install / npm install --legacy-peer-deps
 ### Compiles and hot-reloads for development
 
 ``` 
-npm run start
+npm run start 
 ``` 
 
 ### Compiles and minifies for production
