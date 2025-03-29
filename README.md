@@ -18,7 +18,7 @@ npm run start
 
 ### Compiles and minifies for production
 
-```  
+```   
 npm run build
 ```    
  
